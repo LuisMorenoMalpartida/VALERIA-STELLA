@@ -7,10 +7,11 @@
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .footer-section {
@@ -38,12 +39,17 @@
 }
 
 .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .footer-logo-img {
     max-width: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .social-icons {
@@ -55,6 +61,7 @@
 .social-icons a {
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .footer-bottom {

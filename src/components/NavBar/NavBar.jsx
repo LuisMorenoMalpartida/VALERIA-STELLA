@@ -27,5 +27,5 @@ return (
     </ul>
     </nav>
 </header>
-  )
+)
 }
