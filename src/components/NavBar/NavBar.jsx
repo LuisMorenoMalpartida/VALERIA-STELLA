@@ -5,7 +5,7 @@ import logo from "./logo.png";
 
 
 export const NavBar = () => {
-  return (
+return (
     <header>
     <div className="top-banner">
         ENCONTRARAS NUEVAS REFERENCIAS CADA SEMANA
