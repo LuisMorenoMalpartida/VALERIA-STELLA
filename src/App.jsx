@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from './INICIO/Navbar';
+import { AppRoutes } from './routes/AppRoutes'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      {/* Contenido de la aplicación */}
-    </div>
+    <>
+      <AppRoutes/>
+    </>
   );
 }
 
