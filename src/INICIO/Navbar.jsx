@@ -1,6 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import { FaHeart, FaUserAlt, FaShoppingBag } from 'react-icons/fa';
+import logo from "./logo.png";
 
 const Navbar = () => {
     return (
@@ -16,7 +17,7 @@ const Navbar = () => {
                 <li>OUTLET</li>
             </ul>
             <div className="navbar-logo">
-                VALERIA STELLA
+            <img src={logo} alt="Valeria Stella" className="logo-image" />
             </div>
             <ul className="navbar-icons">
                 <li><FaUserAlt /></li>
