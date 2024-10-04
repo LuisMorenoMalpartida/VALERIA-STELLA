@@ -1,6 +1,7 @@
 import React from "react";
 import './NavBar.css';
-import { FaHeart, FaUserAlt, FaShoppingBag } from 'react-icons/fa';
+import { FaWhatsapp, FaShoppingBag } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import logo from "./logo.png";
 
 
@@ -12,18 +13,17 @@ return (
     </div>
     <nav className="navbar">
     <ul className="navbar-links">
-        <li>INICIO</li>
-        <li>MUJER</li>
-        <li>HOMBRE</li>
-        <li>OUTLET</li>
+        <li><Link to="#"><span>INICIO</span></Link></li>
+        <li><Link to="#"><span>MUJER</span></Link></li>
+        <li><Link to="#"><span>HOMBRE</span></Link></li>
+        <li><Link to="#"><span>OUTLET</span></Link></li>
     </ul>
     <div className="navbar-logo">
         <img src={logo} alt="Valeria Stella" className="logo-image" />
     </div>
     <ul className="navbar-icons">
-        <li><FaUserAlt /></li>
-        <li><FaHeart /></li>
-        <li><FaShoppingBag /></li>
+        <li><Link to="#"><FaWhatsapp /></Link></li> 
+        <li><Link to="#"><FaShoppingBag /></Link></li>
     </ul>
     </nav>
 </header>

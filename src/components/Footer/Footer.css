@@ -38,6 +38,11 @@
     font-size: 16px;
 }
 
+.footer-section.footer-logo {
+    flex: 3; 
+    text-align: center;
+}
+
 .footer-logo {
     display: flex;
     flex-direction: column;

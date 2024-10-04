@@ -40,6 +40,7 @@ header {
     padding: 0;
     flex: 1;
     justify-content: center;
+    position: relative;
 }
 
 li {
@@ -53,6 +54,27 @@ li {
     display: flex;
     align-items: center;
     padding: 10px;
+    position: relative;
+}
+
+.navbar-links li span {
+    position: relative; /* Necesario para el posicionamiento del pseudo-elemento */
+}
+
+.navbar-links li span::after {
+    content: ""; /* Crea un pseudo-elemento */
+    position: absolute; /* Posición absoluta con respecto al elemento padre (span) */
+    left: 50%; /* Inicia en el medio */
+    bottom: -2px; /* Alinea en la parte inferior del texto */
+    width: 0; /* Comienza con un ancho de 0 */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transition: width 0.3s ease, left 0.3s ease; /* Transición suave */
+}
+
+.navbar-links li:hover span::after {
+    width: 100%; /* Se expande al 100% al pasar el mouse */
+    left: 0; /* Se alinea a la izquierda al pasar el mouse */
 }
 
 .navbar-logo {
@@ -74,11 +96,17 @@ li {
 }
 
 .navbar-icons li {
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease
 }
+
+.navbar-icons li:hover {
+    transform: scale(1.5); /* Aumenta el tamaño al 120% */
+}
+
 
 .logo-image {
     height: 50px; 
