@@ -14,7 +14,7 @@ export const NavBar = () => {
       <nav className="navbar">
         <ul className="navbar-links">
           <li>
-            <Link to="#">
+            <Link to="/inicio">
               <span>INICIO</span>
             </Link>
           </li>
