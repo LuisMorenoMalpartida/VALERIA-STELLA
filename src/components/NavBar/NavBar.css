@@ -3,10 +3,6 @@ body {
     margin: 0;
 }
 
-header {
-    font-family: Arial, sans-serif;
-}
-
 .top-banner {
     background-color: #B76E79;
     color: white;
@@ -24,7 +20,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 15px 20px;
+    padding: 15px 98px;
+    margin: 0 auto;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -39,22 +36,23 @@ header {
     margin: 0;
     padding: 0;
     flex: 1;
-    justify-content: center;
+    justify-content: left;
     position: relative;
 }
 
-li {
-    color: black;
-}
-
 .navbar-links li {
+    color: #505050;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 300;
     cursor: pointer;
     display: flex;
     align-items: center;
     padding: 10px;
     position: relative;
+}
+
+.navbar-links li:hover  {
+    color: black;
 }
 
 .navbar-links li span {
@@ -96,7 +94,7 @@ li {
 }
 
 .navbar-icons li {
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
     display: flex;
     align-items: center;

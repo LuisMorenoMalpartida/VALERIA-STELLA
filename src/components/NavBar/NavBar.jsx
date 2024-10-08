@@ -1,6 +1,7 @@
 import 'react'
 import './NavBar.css'
-import { FaWhatsapp, FaShoppingBag } from 'react-icons/fa'
+import { CiHeart } from 'react-icons/ci'
+import { PiWhatsappLogoThin } from 'react-icons/pi'
 import { Link } from 'react-router-dom'
 import logo from './logo.png'
 
@@ -39,12 +40,12 @@ export const NavBar = () => {
         <ul className="navbar-icons">
           <li>
             <Link to="#">
-              <FaWhatsapp />
+              <PiWhatsappLogoThin />
             </Link>
           </li>
           <li>
             <Link to="#">
-              <FaShoppingBag />
+              <CiHeart />
             </Link>
           </li>
         </ul>
