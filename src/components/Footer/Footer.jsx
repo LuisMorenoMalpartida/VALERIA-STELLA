@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-section">
+        <div className="footer-section client">
           <h3>ATENCIÓN AL CLIENTE</h3>
           <ul>
             <li>
@@ -32,7 +32,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="footer-section">
+        <div className="footer-section legal">
           <h3>CENTRO LEGAL</h3>
           <ul>
             <li>
@@ -46,7 +46,7 @@ export const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright © 2024 Amaoda</p>
+        <p>Copyright © 2024 Valeria Stella</p>
       </div>
     </footer>
   )
