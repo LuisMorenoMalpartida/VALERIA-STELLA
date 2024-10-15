@@ -1,0 +1,41 @@
+.ops-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 10px 15px 10px;
+}
+
+.hh3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: 600; */
+}
+
+
+.hola{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    img{
+        border-radius: 15px;
+        width: 300px
+    }
+}
+
+.hola h3{
+    font-weight: 600    ;
+}
+
+.hola Button {
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}

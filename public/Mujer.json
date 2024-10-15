@@ -1,0 +1,108 @@
+{
+  "Top": [
+    {
+      "id": 1,
+      "name": "Bio V Neck Yellow",
+      "price": "S/. 120.000",
+      "image": "https://img.freepik.com/foto-gratis/retrato-mujer-elegante-vestido-amarillo_53876-144863.jpg?w=740",
+      "colors": ["pink", "yellow"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 2,
+      "name": "Mossan Day Half",
+      "price": "S/. 190.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-atractiva-posando-calle-ropa-moda_158595-1369.jpg?w=740",
+      "colors": ["pink"],
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 3,
+      "name": "Casual Blue Blouse",
+      "price": "S/. 110.000",
+      "image": "https://img.freepik.com/foto-gratis/hermosa-joven-posando-ropa-moda_158595-3086.jpg?w=740",
+      "colors": ["blue"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 4,
+      "name": "Striped V Neck",
+      "price": "S/. 130.000",
+      "image": "https://img.freepik.com/foto-gratis/hermosa-joven-vestida-moda-moderno_158595-3480.jpg?w=740",
+      "colors": ["black", "white"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 5,
+      "name": "Summer Top Pink",
+      "price": "S/. 140.000",
+      "image": "https://img.freepik.com/foto-gratis/chica-moda-vestido-moderno-rosa_158595-3707.jpg?w=740",
+      "colors": ["pink"],
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 6,
+      "name": "Elegant Sleeveless",
+      "price": "S/. 160.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-ropa-moda-moderna_53876-102340.jpg?w=740",
+      "colors": ["green", "black"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 7,
+      "name": "Basic White T-shirt",
+      "price": "S/. 80.000",
+      "image": "https://img.freepik.com/foto-gratis/joven-modelo-moda-blusa-blanca_53876-100121.jpg?w=740",
+      "colors": ["white"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 8,
+      "name": "Chic Crop Top",
+      "price": "S/. 150.000",
+      "image": "https://img.freepik.com/foto-gratis/hermosa-mujer-posando-ropa-azul_158595-5700.jpg?w=740",
+      "colors": ["blue", "red"],
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 9,
+      "name": "Casual Green Top",
+      "price": "S/. 95.000",
+      "image": "https://img.freepik.com/foto-gratis/hermosa-joven-blusa-verde_158595-3426.jpg?w=740",
+      "colors": ["green"],
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 10,
+      "name": "Elegant Black Top",
+      "price": "S/. 180.000",
+      "image": "https://img.freepik.com/foto-gratis/joven-elegante-vestida-negro_158595-3702.jpg?w=740",
+      "colors": ["black"],
+      "sizes": ["M", "L", "XL"]
+    }
+  ],
+    "Bottom": [
+      {
+        "id": 3,
+        "name": "Classic Black Pants",
+        "price": "S/. 150.000",
+        "image": "https://img.freepik.com/foto-gratis/mujer-negocios-emociones-aisladas_1303-14132.jpg?t=st=1728867277~exp=1728870877~hmac=584994ed245fd0709aa6418246b8989f0b16535cfe6a5243662baa087e5bd8d3&w=740",
+        "colors": ["black"],
+        "sizes": ["S", "M", "L"]
+      }
+    ],
+    "Vestidos": [
+      {
+        "id": 4,
+        "name": "Summer Dress",
+        "price": "S/. 200.000",
+        "image": "https://example.com/path-to-image4.jpg",
+        "colors": ["red", "blue"],
+        "sizes": ["M", "L"]
+      }
+    ],
+    "Conjunto": [],
+    "Accesorios": [],
+    "Sale": []
+  }
+  

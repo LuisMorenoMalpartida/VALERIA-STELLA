@@ -1,0 +1,151 @@
+.mujer-page {
+    padding: 40px 20px;
+    /* background-color: #f4f4f6; Fondo gris claro */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .mujer-title {
+    text-align: center;
+    font-size: 3rem; /* Aumentar el tamaño del título */
+    color: #222; /* Color oscuro para mejor contraste */
+    font-weight: 700; /* Negrita */
+  }
+  
+  .mujer-content {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px; /* Limitar el ancho de la sección para un diseño más contenido */
+    width: 100%;
+  }
+  
+  .product-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Mejor adaptabilidad */
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .load-more-button {
+    align-self: center; 
+    padding: 12px 24px; /* Tamaño de botón mejorado */
+    background-color: #000000; /* Azul moderno */
+    color: #fff;
+    border: none;
+    border-radius: 30px; /* Botón más redondeado */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .load-more-button:hover {
+    background-color: #fcfcfc; /* Azul más oscuro */
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-3px); /* Efecto de elevación */
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd; /* Línea bajo los tabs para separación */
+    padding-bottom: 10px;
+    overflow-x: auto; /* Hacer los tabs desplazables si hay muchos */
+  }
+  
+  .tab-button {
+    padding: 10px 20px; 
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1rem;
+    color: #555;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .tab-button:hover {
+    border-color: #303030;
+    color: #2b2b2b; /* Cambiar color al pasar el mouse */
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #000000; /* Resaltar la pestaña activa */
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Sombra más profunda */
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05); /* Suave zoom al pasar el mouse */
+  }
+  
+  .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaciado entre los círculos */
+    margin-top: 10px;
+  }
+  
+  .color-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #ddd; 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .color-circle:hover {
+    transform: scale(1.2);
+    border-color: #1e88e5; /* Resaltar borde al pasar el mouse */
+  }
+  
+  .product-name {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 15px 0 5px;
+    font-weight: 600; /* Más negrita para destacar */
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+
+  
+  

@@ -1,0 +1,56 @@
+.moda-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+    padding: 80px 150px 100px 150px;
+  /* background: rgb(183,110,121);
+  background: linear-gradient(0deg, rgba(183,110,121,1) 0%, rgba(255,255,255,1) 58%); */
+  background-color: #ffffff;
+}
+
+.moda-container img {
+  width: 500px;
+  display: none;
+}
+
+.moda-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 500px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.moda-texto h2 {
+  margin: 10px 0;
+  font-size: 34px;
+  color: rgb(0, 0, 0);
+}
+
+.moda-texto p {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.moda-texto Button {
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* .moda-texto Button:hover {
+  background-color: #0056b3;
+} */

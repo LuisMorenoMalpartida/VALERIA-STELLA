@@ -1,0 +1,198 @@
+{
+"Top": [
+    {
+      "id": 1,
+      "name": "Bio V Neck Yellow",
+      "price": "S/. 120.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-amarilla-vista-frontal_23-2148220547.jpg?w=740",
+      "colors": ["yellow"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 2,
+      "name": "Mossan Day Half",
+      "price": "S/. 190.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-elegante-ropa-informal_53876-115648.jpg?w=740",
+      "colors": ["blue", "grey"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 3,
+      "name": "Casual Blue Blouse",
+      "price": "S/. 110.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-azul-mirar-camara_23-2148580302.jpg?w=740",
+      "colors": ["blue"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 4,
+      "name": "Striped V Neck",
+      "price": "S/. 130.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-rayas_23-2148238915.jpg?w=740",
+      "colors": ["black", "white"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 5,
+      "name": "Summer Top Pink",
+      "price": "S/. 140.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-rosa_23-2148903843.jpg?w=740",
+      "colors": ["pink"],
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 6,
+      "name": "Elegant Sleeveless",
+      "price": "S/. 160.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-sin-mangas-negra_23-2148980924.jpg?w=740",
+      "colors": ["black"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 7,
+      "name": "Basic White T-shirt",
+      "price": "S/. 80.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-blanca-sonriente_23-2148580189.jpg?w=740",
+      "colors": ["white"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 8,
+      "name": "Chic Crop Top",
+      "price": "S/. 150.000",
+      "image": "https://img.freepik.com/foto-gratis/joven-camiseta-azul-sonriente_23-2148580212.jpg?w=740",
+      "colors": ["blue"],
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 9,
+      "name": "Casual Green Top",
+      "price": "S/. 95.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-verde-posando_23-2148580308.jpg?w=740",
+      "colors": ["green"],
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 10,
+      "name": "Elegant Black Top",
+      "price": "S/. 180.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-elegante-camisa-negra_23-2148580106.jpg?w=740",
+      "colors": ["black"],
+      "sizes": ["M", "L", "XL"]
+    }
+  ],
+  "Bottom": [
+    {
+      "id": 5,
+      "name": "Classic Black Pants",
+      "price": "S/. 150.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-pantalones-negros_23-2149056783.jpg",
+      "colors": ["black"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 6,
+      "name": "Denim Jeans",
+      "price": "S/. 180.000",
+      "image": "https://img.freepik.com/foto-gratis/pareja-jeans-denim_23-2148957060.jpg",
+      "colors": ["blue"],
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 7,
+      "name": "Chino Pants",
+      "price": "S/. 160.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camisa-blanca-pantalones-chino_23-2149036789.jpg",
+      "colors": ["beige", "navy"],
+      "sizes": ["S", "M", "L"]
+    }
+  ],
+  "Vestidos": [
+    {
+      "id": 8,
+      "name": "Summer Dress",
+      "price": "S/. 200.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-joven-vestido-verano_23-2149089624.jpg",
+      "colors": ["red", "blue"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 9,
+      "name": "Floral Midi Dress",
+      "price": "S/. 220.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-vestido-floral-medio_23-2149070543.jpg",
+      "colors": ["pink", "green"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 10,
+      "name": "Boho Maxi Dress",
+      "price": "S/. 250.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-joven-maxi-vestido-bohemio_23-2149088432.jpg",
+      "colors": ["white", "brown"],
+      "sizes": ["M", "L", "XL"]
+    }
+  ],
+  "Conjunto": [
+    {
+      "id": 11,
+      "name": "Cozy Knit Set",
+      "price": "S/. 300.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-joven-conjunto-tejido-acogedor_23-2149081232.jpg",
+      "colors": ["gray", "cream"],
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 12,
+      "name": "Sporty Tracksuit",
+      "price": "S/. 350.000",
+      "image": "https://img.freepik.com/foto-gratis/mujer-joven-chandal_23-2149074561.jpg",
+      "colors": ["black", "navy"],
+      "sizes": ["M", "L", "XL"]
+    }
+  ],
+  "Accesorios": [
+    {
+      "id": 13,
+      "name": "Leather Belt",
+      "price": "S/. 70.000",
+      "image": "https://img.freepik.com/foto-gratis/cinturon-cuero_23-2149036781.jpg",
+      "colors": ["black", "brown"],
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 14,
+      "name": "Wool Scarf",
+      "price": "S/. 50.000",
+      "image": "https://img.freepik.com/foto-gratis/bufanda-lana_23-2149067456.jpg",
+      "colors": ["red", "gray"],
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 15,
+      "name": "Baseball Cap",
+      "price": "S/. 40.000",
+      "image": "https://img.freepik.com/foto-gratis/gorra-beisbol_23-2149036782.jpg",
+      "colors": ["blue", "black"],
+      "sizes": ["One Size"]
+    }
+  ],
+  "Sale": [
+    {
+      "id": 16,
+      "name": "Vintage Tee - 20% Off",
+      "price": "S/. 60.000",
+      "image": "https://img.freepik.com/foto-gratis/camiseta-vintage_23-2149087654.jpg",
+      "colors": ["white"],
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 17,
+      "name": "Denim Jacket - 30% Off",
+      "price": "S/. 140.000",
+      "image": "https://img.freepik.com/foto-gratis/chaqueta-denim_23-2149087643.jpg",
+      "colors": ["blue"],
+      "sizes": ["M", "L", "XL"]
+    }
+  ]
+}

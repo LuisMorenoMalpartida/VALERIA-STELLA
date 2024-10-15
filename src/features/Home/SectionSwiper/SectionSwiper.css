@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+
+.sw-container {
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.sw-container img {
+    border-radius: 15px !important;
+
+}
+.slide-content {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.slide-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Ajusta la opacidad para oscurecer la imagen */
+    border-radius: 15px;
+    z-index: 1; /* Asegura que la capa oscura esté sobre la imagen */
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0; /* Asegura que la imagen esté detrás de la capa oscura */
+}
+
+.slide-text {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 2; /* Asegura que el texto esté por encima de la capa oscura */
+}
+
+
+.slide-text h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+/* .button-group button:hover {
+    background-color: #00eeff;
+    color: white;
+} */
