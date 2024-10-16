@@ -19,7 +19,7 @@
   .product-section-content {
     display: flex;
     gap: 40px;
-    max-width: 1200px;
+    max-width: 1100px;
     width: 100%;
   }
   
@@ -33,9 +33,10 @@
   .product-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px;
+    gap: 20px;
     margin-bottom: 20px;
     border: solid 2px #000000;
+    padding: 25px;
   }
   
   .load-more-button {
@@ -89,7 +90,7 @@
   
   .product-card {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 0px;
   }
   
   

@@ -65,8 +65,8 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
                 products[activeTab].map((product) => (
                   <ProductCard key={product.id} product={product} />
                 ))}
+                <button className="load-more-button">VER MÁS</button>
             </div>
-            <button className="load-more-button">VER MÁS</button>
           </div>
         </div>
       </div>
