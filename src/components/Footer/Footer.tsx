@@ -45,7 +45,7 @@ export const Footer = () => {
       </div>
 
       <div className={styles.footerBottom}>
-        <p>Copyright © 2024 Amaoda</p>
+        <p>Copyright © 2024 Valeria Stella</p>
       </div>
     </footer>
   );
