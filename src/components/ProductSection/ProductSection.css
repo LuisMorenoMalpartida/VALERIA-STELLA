@@ -32,18 +32,18 @@
   
   .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
     margin-bottom: 20px;
+    border: solid 2px #000000;
   }
   
   .load-more-button {
     align-self: center; 
     padding: 12px 24px;
-    background-color: #000000;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
+    background-color: #fcfcfc;
+    color: black;
+    border: 1px solid black;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -89,20 +89,12 @@
   
   .product-card {
     background-color: #ffffff;
-    border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .product-card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  }
   
   .product-image {
     width: 100%;
-    border-radius: 12px;
     object-fit: cover;
     transition: transform 0.3s ease;
   }
@@ -111,26 +103,8 @@
     transform: scale(1.05);
   }
   
-  .color-options {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-  }
+
   
-  .color-circle {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    border: 1px solid #ddd; 
-    transition: transform 0.3s ease, border-color 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .color-circle:hover {
-    transform: scale(1.2);
-    border-color: #1e88e5;
-  }
   
   .product-name {
     font-size: 1.3rem;
