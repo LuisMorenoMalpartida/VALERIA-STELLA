@@ -4,62 +4,73 @@
       "id": 1,
       "name": "Bio V Neck Yellow",
       "price": "S/. 120.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-amarilla-vista-frontal_23-2148220547.jpg?w=740",
-      "sizes": ["M", "L"]
+      "image": "../src/assets/Hombre/Top-1.png"
     },
     {
       "id": 2,
       "name": "Mossan Day Half",
       "price": "S/. 190.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-elegante-ropa-informal_53876-115648.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-2.png"
     },
     {
       "id": 3,
       "name": "Casual Blue Blouse",
       "price": "S/. 110.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-azul-mirar-camara_23-2148580302.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-3.png"
     },
     {
       "id": 4,
       "name": "Striped V Neck",
       "price": "S/. 130.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-rayas_23-2148238915.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-4.png"
     },
     {
       "id": 5,
       "name": "Summer Top Pink",
       "price": "S/. 140.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-rosa_23-2148903843.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-5.png"
     },
     {
       "id": 6,
       "name": "Elegant Sleeveless",
       "price": "S/. 160.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-sin-mangas-negra_23-2148980924.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-6.png"
     },
     {
       "id": 7,
       "name": "Basic White T-shirt",
       "price": "S/. 80.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-blanca-sonriente_23-2148580189.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-7.png"
     },
     {
       "id": 8,
       "name": "Chic Crop Top",
       "price": "S/. 150.000",
-      "image": "https://img.freepik.com/foto-gratis/joven-camiseta-azul-sonriente_23-2148580212.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-8.png"
     },
     {
       "id": 9,
       "name": "Casual Green Top",
       "price": "S/. 95.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-verde-posando_23-2148580308.jpg?w=740"
+      "image": "../src/assets/Hombre/Top-9.png"
     },
     {
       "id": 10,
-      "name": "Elegant Black Top",
-      "price": "S/. 180.000",
-      "image": "https://img.freepik.com/foto-gratis/hombre-elegante-camisa-negra_23-2148580106.jpg?w=740"
+      "name": "Bio V Neck Yellow",
+      "price": "S/. 120.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-amarilla-vista-frontal_23-2148220547.jpg?w=740"
+    },
+    {
+      "id": 11,
+      "name": "Mossan Day Half",
+      "price": "S/. 190.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-elegante-ropa-informal_53876-115648.jpg?w=740"
+    },
+    {
+      "id": 12,
+      "name": "Casual Green Top",
+      "price": "S/. 95.000",
+      "image": "https://img.freepik.com/foto-gratis/hombre-camiseta-verde-posando_23-2148580308.jpg?w=740"
     }
   ],
   "Bottom": [
@@ -82,7 +93,7 @@
       "image": "https://img.freepik.com/foto-gratis/hombre-camisa-blanca-pantalones-chino_23-2149036789.jpg"
     }
   ],
-  "Vestidos": [
+  "Trajes": [
     {
       "id": 8,
       "name": "Summer Dress",
