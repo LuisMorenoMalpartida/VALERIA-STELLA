@@ -27,10 +27,10 @@ export const NavBar = () => {
           </div>
 
           <div className="navIcons">
-            <Link to="/facebook" className="navIcon">
+            <Link to="/facebook" className="navIcon whatsapp">
               <FaWhatsapp size={25} />
             </Link>
-            <Link to="/twitter" className="navIcon">
+            <Link to="/twitter" className="navIcon heart">
               <FaRegHeart size={25} />
             </Link>
           </div>

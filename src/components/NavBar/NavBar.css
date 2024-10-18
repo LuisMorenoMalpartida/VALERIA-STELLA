@@ -8,7 +8,7 @@
 
 .preNav {
     display: flex;
-    background-color: #ffaeae;
+    background-color: #B76E79;
     /* Change to a more appealing color */
     color: white;
     font-weight: bold;
@@ -21,11 +21,6 @@
     /* Increased font size for better readability */
     transition: background-color 0.3s ease;
     /* Smooth transition */
-}
-
-.preNav:hover {
-    background-color: #e60000;
-    /* Darker shade on hover */
 }
 
 
@@ -42,10 +37,6 @@
     /* Smooth background transition */
 }
 
-.navBar:hover {
-    background-color: #f0f0f0;
-    /* Light gray background on hover */
-}
 
 .navLinks {
     display: flex;
@@ -56,21 +47,16 @@
 }
 
 .navLink {
-    color: #333;
-    /* Link color */
+    color: #505050;
+    font-weight: 400;
     text-decoration: none;
-    /* Remove underline */
     position: relative;
-    /* For hover effect */
     transition: color 0.3s ease;
-    /* Smooth color transition */
 }
 
 .navLink:hover {
-    /* color: #ff4d4d; */
-    color: #ffaeae;
+    color: black;
 }
-
 
 .navLogo {
     width: 160px;
@@ -80,10 +66,6 @@
     /* Smooth scaling */
 }
 
-.navLogo:hover {
-    transform: scale(1.1);
-    /* Scale up logo on hover */
-}
 
 .navIcons {
     display: flex;
@@ -100,8 +82,12 @@
     /* Smooth transitions */
 }
 
-.navIcon:hover {
-    color: #ffaeae;
+.navIcon.whatsapp:hover {
+    color: #6EB7AC;
     transform: scale(1.2);
-    /* Scale up icon on hover */
+}
+
+.navIcon.heart:hover {
+    color: #B76E79;
+    transform: scale(1.2);
 }
