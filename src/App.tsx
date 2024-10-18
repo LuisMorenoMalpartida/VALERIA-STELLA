@@ -1,6 +1,6 @@
-// import "./App.css";
+import "./App.css";
 
-import "./index.css";
+//import "./index.css";
 import { AppRoutes } from "./routes/AppRoutes";
 
 

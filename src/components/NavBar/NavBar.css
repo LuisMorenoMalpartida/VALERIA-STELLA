@@ -1,8 +1,11 @@
 .navWrapper {
+.navWrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+
+.preNav {
 
 .preNav {
     display: flex;
@@ -22,7 +25,10 @@
 }
 
 .navBar {
+.navBar {
     display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    /* Las dos primeras y última columna se ajustan */
     grid-template-columns: 1fr auto 1fr; /* Adjusts the logo column */
     align-items: center;
     padding: 10px;
@@ -38,6 +44,7 @@
     display: flex;
     gap: 40px;
     font-weight: 600;
+    font-size: 1rem;
     justify-content: center;
 }
 
@@ -54,6 +61,7 @@
 }
 
 .navLogo {
+.navLogo {
     width: 160px;
     display: flex;
     justify-content: center;
@@ -65,7 +73,10 @@
 }
 
 .navIcons {
+    /* border: 1px solid red; */
+.navIcons {
     display: flex;
+    gap: 30px;
     gap: 30px;
     justify-content: end;
     padding-right: 50px;

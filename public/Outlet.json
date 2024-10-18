@@ -4,25 +4,19 @@
       "id": 1,
       "name": "Bio V Neck Yellow",
       "price": "S/. 120.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-sonriente-tiro-medio-posando_23-2148934182.jpg?t=st=1728860360~exp=1728863960~hmac=9860759cd270e9943ef8ff55a5dbd0e2783532fe4ce6065a878c691becfef73a&w=740"
+      "image": "../src/assets/Outlet/Top-1.png"
     },
     {
       "id": 2,
       "name": "Mossan Day Half",
       "price": "S/. 190.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-sonriente-tiro-medio-posando_23-2148934182.jpg?t=st=1728860360~exp=1728863960~hmac=9860759cd270e9943ef8ff55a5dbd0e2783532fe4ce6065a878c691becfef73a&w=740"
+      "image": "../src/assets/Outlet/Top-1.png"
     },
     {
       "id": 3,
       "name": "Mossan Day Half",
       "price": "S/. 190.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-sonriente-tiro-medio-posando_23-2148934182.jpg?t=st=1728860360~exp=1728863960~hmac=9860759cd270e9943ef8ff55a5dbd0e2783532fe4ce6065a878c691becfef73a&w=740"
-    },
-    {
-      "id": 4,
-      "name": "Mossan Day Half",
-      "price": "S/. 190.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-sonriente-tiro-medio-posando_23-2148934182.jpg?t=st=1728860360~exp=1728863960~hmac=9860759cd270e9943ef8ff55a5dbd0e2783532fe4ce6065a878c691becfef73a&w=740"
+      "image": "../src/assets/Outlet/Top-1.png"
     }
   ],
   "Bottom": [
@@ -30,7 +24,7 @@
       "id": 3,
       "name": "Classic Black Pants",
       "price": "S/. 150.000",
-      "image": "https://img.freepik.com/foto-gratis/foto-estudio-mujer-feliz-pelo-corto-camisa-blanca-pantalones-mezclilla-posando-pared-amarilla_343596-2672.jpg?t=st=1728860856~exp=1728864456~hmac=e608f321a163360a72660844c323051b6ad84b093c1552828b653964d1df72ec&w=740"
+      "image": "../src/assets/Outlet/Bottom-1.png"
     }
   ],
   "Vestidos": [
@@ -38,7 +32,15 @@
       "id": 4,
       "name": "Summer Dress",
       "price": "S/. 200.000",
-      "image": "https://example.com/path-to-image4.jpg"
+      "image": "../src/assets/Outlet/Vestidos-1.png"
+    }
+  ],
+  "Trajes": [
+    {
+      "id": 4,
+      "name": "Summer Dress",
+      "price": "S/. 200.000",
+      "image": "../src/assets/Outlet/Trajes-1.png"
     }
   ],
   "Conjunto": [],
