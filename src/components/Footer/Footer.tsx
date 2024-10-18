@@ -31,7 +31,8 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <div className={styles.footerSection}>
+        <div className={`${styles.footerSection} ${styles.legal}`}>
+
           <h3>CENTRO LEGAL</h3>
           <ul>
             <li>

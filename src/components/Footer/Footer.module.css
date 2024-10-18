@@ -3,13 +3,13 @@
     /* Color de fondo del footer */
     color: white;
     /* Color del texto */
-    padding: 40px 20px;
     /* Espaciado interior en la parte superior e inferior, y laterales */
     flex-shrink: 0;
     /* Evita que el footer se reduzca en el espacio disponible */
 }
 
 .footerContent {
+    padding: 40px 20px;
     display: flex;
     /* Usar flexbox para el layout */
     justify-content: center;
@@ -29,6 +29,10 @@
     /* Ocupa espacio igual en el footer */
     padding: 10px;
     /* Espaciado alrededor de cada sección */
+}
+
+.legal {
+    text-align: right;
 }
 
 .footerSection h3 {
@@ -104,12 +108,10 @@
 }
 
 .footerBottom {
+    background-color: white;
+    color: #3F3F3F;
+    padding: 20px 0px;
     text-align: center;
-    /* Centrar el texto */
-    margin-top: 30px;
-    /* Espacio arriba */
-    padding-top: 20px;
-    /* Espaciado superior */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     /* Línea divisoria superior */
 }
