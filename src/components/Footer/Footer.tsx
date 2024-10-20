@@ -31,7 +31,8 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <div className={styles.footerSection}>
+        <div className={`${styles.footerSection} ${styles.legal}`}>
+
           <h3>CENTRO LEGAL</h3>
           <ul>
             <li>
@@ -45,7 +46,7 @@ export const Footer = () => {
       </div>
 
       <div className={styles.footerBottom}>
-        <p>Copyright © 2024 Amaoda</p>
+        <p>Copyright © 2024 Valeria Stella</p>
       </div>
     </footer>
   );

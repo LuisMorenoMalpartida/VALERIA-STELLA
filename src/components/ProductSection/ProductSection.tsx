@@ -10,8 +10,6 @@ type Product = {
   name: string;
   price: string;
   image: string;
-  colors: string[];
-  sizes: string[];
 };
 
 type ProductsByCategory = {
@@ -29,6 +27,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<string>("Top");
   const [products, setProducts] = useState<ProductsByCategory>({});
+  const [visibleProductsCount, setVisibleProductsCount] = useState<number>(9); 
 
   useEffect(() => {
     // Cargar el archivo JSON con los productos
@@ -43,6 +42,10 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
       .catch((error) => console.error("Error loading products:", error));
   }, [jsonUrl]);
 
+  const loadMoreProducts = () => {
+    setVisibleProductsCount((prev) => prev + 9); 
+  };
+
   return (
     <>
       <NavBar />
@@ -56,7 +59,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
           onSelectionChange={(key) => setActiveTab(key as string)}
         >
           {Object.keys(products).map((tab) => (
-            <Tab key={tab} title={tab} />
+            <Tab key={tab} title={tab} className="tab"/>
           ))}
         </Tabs>
 
@@ -64,11 +67,17 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
           <div className="product-list-container">
             <div className="product-list">
               {products[activeTab] &&
-                products[activeTab].map((product) => (
-                  <ProductCard key={product.id} product={product} />
-                ))}
+                products[activeTab]
+                  .slice(0, visibleProductsCount) 
+                  .map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                  ))}
             </div>
-            <button className="load-more-button">VER MÁS</button>
+            {products[activeTab]?.length > visibleProductsCount && (
+              <button className="load-more-button" onClick={loadMoreProducts}>
+                VER MÁS
+              </button>
+            )}
           </div>
         </div>
       </div>

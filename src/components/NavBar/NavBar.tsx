@@ -17,8 +17,8 @@ export const NavBar = () => {
         <nav className="navBar">
           <div className="navLinks">
             <Link to="/home" className="navLink">INICIO</Link>
-            <Link to="/hombre" className="navLink">HOMBRES</Link>
-            <Link to="/mujer" className="navLink">MUJERES</Link>
+            <Link to="/mujer" className="navLink">MUJER</Link>
+            <Link to="/hombre" className="navLink">HOMBRE</Link>
             <Link to="/outlet" className="navLink">OUTLET</Link>
           </div>
 
@@ -27,10 +27,10 @@ export const NavBar = () => {
           </div>
 
           <div className="navIcons">
-            <Link to="/facebook" className="navIcon">
+            <Link to="/facebook" className="navIcon whatsapp">
               <FaWhatsapp size={25} />
             </Link>
-            <Link to="/twitter" className="navIcon">
+            <Link to="/twitter" className="navIcon heart">
               <FaRegHeart size={25} />
             </Link>
           </div>
