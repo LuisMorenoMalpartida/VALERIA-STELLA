@@ -2,6 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import img4 from "./img/paisaje.jpg";
 // import img5 from './img/paisaje2.jpg'
 // import img6 from './img/paisaje3.jpg'
+import ropa1 from './img/ropa 1.png'
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -33,7 +35,8 @@ export const SectionSwiper = () => {
         <SwiperSlide>
           <div className="slide-content">
             <img
-              src="https://cc-prod.scene7.com/is/image/CCProdAuthor/Fashion-photography_P1_900x420?$pjpeg$&jpegSize=200&wid=900"
+              // src="https://cc-prod.scene7.com/is/image/CCProdAuthor/Fashion-photography_P1_900x420?$pjpeg$&jpegSize=200&wid=900"
+              src={ropa1}
               alt="Slide 1"
               className="slide-image"
             />

@@ -7,12 +7,12 @@
     padding: 80px 150px 100px 150px;
   /* background: rgb(183,110,121);
   background: linear-gradient(0deg, rgba(183,110,121,1) 0%, rgba(255,255,255,1) 58%); */
-  background-color: #ffffff;
+  background-color: #6EB7AC;
 }
 
 .moda-container img {
   width: 500px;
-  display: none;
+  /* display: none; */
 }
 
 .moda-texto {
@@ -21,22 +21,28 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding: 50px 500px;
+  padding: 40px 40px;
+  height: 500px;
+  width: 600;
   text-align: center;
   /* border: 1px solid red; */
+  
+  
 }
 
 .moda-texto h2 {
-  margin: 10px 0;
+  display: block;
+  margin: 10px 10px;
   font-size: 34px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .moda-texto p {
-  margin: 10px 0;
+  display: block;
+  padding: 10px 50px;
   line-height: 1.5;
-  font-size: 16px;
-  color: rgb(0, 0, 0);
+  font-size: 20px;
+  color: rgb(235, 235, 235);
 }
 
 .moda-texto Button {
@@ -44,13 +50,15 @@
   font-size: 16px;
   margin-top: 10px;
   border: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  /* background-color: #ffffff; */
+  background-color: transparent;
+  color: rgb(255, 255, 255);
   border-radius: 5px;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
 }
 
-/* .moda-texto Button:hover {
-  background-color: #0056b3;
-} */
+.moda-texto Button:hover {
+  background-color: #ffffff;
+  color: black;
+}

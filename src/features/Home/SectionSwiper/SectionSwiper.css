@@ -51,7 +51,7 @@
     border-radius: 10px;
     width: 80%;
     font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     z-index: 2; /* Asegura que el texto esté por encima de la capa oscura */
 }
 
@@ -59,7 +59,7 @@
 .slide-text h2 {
     font-size: 50px;
     margin-bottom: 15px;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
   font-weight: 400;
   font-style: normal;
 }
@@ -72,9 +72,9 @@
 
 .button-group button {
     padding: 10px 15px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: none;
+    background-color:  transparent;
+    color: rgb(255, 255, 255);
+    border:1px solid white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
@@ -82,7 +82,7 @@
     font-weight: 600;
 }
 
-/* .button-group button:hover {
+.button-group button:hover {
     background-color: #00eeff;
     color: white;
-} */
+}

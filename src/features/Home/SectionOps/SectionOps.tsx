@@ -1,4 +1,4 @@
-import { Button } from '@nextui-org/react'
+// import { Button } from '@nextui-org/react'
 import img1 from './img/ropa.webp'
 
 import './SectionOps.css'
@@ -6,7 +6,7 @@ import './SectionOps.css'
 export const SectionOps = () => {
   return (
     <>
-    <h3
+    {/* <h3
     className='hh3'
       style={{
         textAlign: "center",
@@ -14,34 +14,34 @@ export const SectionOps = () => {
         marginTop:"50px",
         
       }}
-    >CATEGORIAS</h3>
+    >CATEGORIAS</h3> */}
       <div className="ops-container">
           <div className="hola">
             <div>
               <img src={img1} alt="" />
             </div>
-            <div style={{marginBottom:"50px", textAlign:"center"}}>
+            {/* <div style={{marginBottom:"50px", textAlign:"center"}}>
               <h3>VERANO</h3>
               <Button>VER MÁS</Button>
-            </div>
+            </div> */}
           </div>
           <div className="hola">
             <div>
               <img src={img1} alt="" />
             </div>
-            <div style={{textAlign:"center"}}>
+            {/* <div style={{textAlign:"center"}}>
               <h3>OTOÑO</h3>
               <Button>VER MÁS</Button>
-            </div>
+            </div> */}
           </div>
           <div className="hola">
             <div>
               <img src={img1} alt="" />
             </div>
-            <div style={{marginBottom:"50px", textAlign:"center"}}>
+            {/* <div style={{marginBottom:"50px", textAlign:"center"}}>
               <h3>INVIERNO</h3>
               <Button>VER MÁS</Button>
-            </div>
+            </div> */}
           </div>
       </div>
     </>
