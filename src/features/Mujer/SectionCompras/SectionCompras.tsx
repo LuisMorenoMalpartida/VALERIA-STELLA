@@ -1,6 +1,3 @@
-
 export const SectionCompras = () => {
-  return (
-    <div>SectionCompras</div>
-  )
-}
+  return <div>SectionCompras</div>;
+};

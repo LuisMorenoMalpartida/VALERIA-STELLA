@@ -1,14 +1,8 @@
-import {
-  BrowserRouter,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Home } from "../pages/home/Home";
 import { Mujer } from "../pages/mujer/Mujer";
 import { Hombre } from "../pages/hombre/Hombre";
-import { Outlet} from "../pages/outlet/OutLetPage";
-
+import { Outlet } from "../pages/outlet/OutLetPage";
 
 export const AppRoutes = () => {
   return (

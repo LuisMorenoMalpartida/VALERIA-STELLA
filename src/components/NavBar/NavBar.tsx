@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaWhatsapp, FaRegHeart } from "react-icons/fa";
 import "./NavBar.css";
-import logo from "../../assets/Navbar/Logo/logo.png"
+import logo from "../../assets/Navbar/Logo/logo.png";
 
 export const NavBar = () => {
-
   return (
     <>
       <div className="navWrapper">
@@ -16,10 +15,18 @@ export const NavBar = () => {
 
         <nav className="navBar">
           <div className="navLinks">
-            <Link to="/home" className="navLink">INICIO</Link>
-            <Link to="/mujer" className="navLink">MUJER</Link>
-            <Link to="/hombre" className="navLink">HOMBRE</Link>
-            <Link to="/outlet" className="navLink">OUTLET</Link>
+            <Link to="/home" className="navLink">
+              INICIO
+            </Link>
+            <Link to="/mujer" className="navLink">
+              MUJER
+            </Link>
+            <Link to="/hombre" className="navLink">
+              HOMBRE
+            </Link>
+            <Link to="/outlet" className="navLink">
+              OUTLET
+            </Link>
           </div>
 
           <div className="navLogo">

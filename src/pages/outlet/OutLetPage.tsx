@@ -1,8 +1,6 @@
-import 'react'
-import { ProductSection } from "../../components/ProductSection/ProductSection"
+import "react";
+import { ProductSection } from "../../components/ProductSection/ProductSection";
 
 export const Outlet = () => {
-  return (
-    <ProductSection title="OUTLET" jsonUrl="/Outlet.json" />
-  );
+  return <ProductSection title="OUTLET" jsonUrl="/Outlet.json" />;
 };

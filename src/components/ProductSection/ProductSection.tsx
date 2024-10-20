@@ -10,6 +10,7 @@ type Product = {
   name: string;
   price: string;
   image: string;
+  url: string;
 };
 
 type ProductsByCategory = {
@@ -27,7 +28,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<string>("Top");
   const [products, setProducts] = useState<ProductsByCategory>({});
-  const [visibleProductsCount, setVisibleProductsCount] = useState<number>(9); 
+  const [visibleProductsCount, setVisibleProductsCount] = useState<number>(9);
 
   useEffect(() => {
     // Cargar el archivo JSON con los productos
@@ -43,7 +44,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
   }, [jsonUrl]);
 
   const loadMoreProducts = () => {
-    setVisibleProductsCount((prev) => prev + 9); 
+    setVisibleProductsCount((prev) => prev + 9);
   };
 
   return (
@@ -59,7 +60,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
           onSelectionChange={(key) => setActiveTab(key as string)}
         >
           {Object.keys(products).map((tab) => (
-            <Tab key={tab} title={tab} className="tab"/>
+            <Tab key={tab} title={tab} className="tab" />
           ))}
         </Tabs>
 
@@ -68,7 +69,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
             <div className="product-list">
               {products[activeTab] &&
                 products[activeTab]
-                  .slice(0, visibleProductsCount) 
+                  .slice(0, visibleProductsCount)
                   .map((product) => (
                     <ProductCard key={product.id} product={product} />
                   ))}

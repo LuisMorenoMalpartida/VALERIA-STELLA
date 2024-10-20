@@ -2,8 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import img4 from "./img/paisaje.jpg";
 // import img5 from './img/paisaje2.jpg'
 // import img6 from './img/paisaje3.jpg'
-import ropa1 from './img/ropa 1.png'
-
+import ropa1 from "./img/ropa 1.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,10 +12,8 @@ import { Autoplay } from "swiper/modules";
 import { Button } from "@nextui-org/react";
 import { useNavigate } from "react-router-dom";
 
-
 export const SectionSwiper = () => {
   const navigate = useNavigate();
-
 
   return (
     <div className="sw-container">
