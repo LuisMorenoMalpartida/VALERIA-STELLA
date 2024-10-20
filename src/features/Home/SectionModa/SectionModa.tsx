@@ -1,6 +1,8 @@
 import { Button } from "@nextui-org/react";
 import "./SectionModa.css";
-import img1 from "./img/9340575.png";
+import img1 from "./img/image 20.png";
+import img2 from "./img/image 7.png";
+
 
 export const SectionModa = () => {
   return (
@@ -18,7 +20,7 @@ export const SectionModa = () => {
         <Button>VER OUTLET</Button>
       </div>
       <div>
-        <img src={img1} alt="" />
+        <img src={img2} alt="" />
       </div>
     </div>
   );
