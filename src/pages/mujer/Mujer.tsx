@@ -1,7 +1,5 @@
-import { ProductSection } from "../../components/ProductSection/ProductSection"
+import { ProductSection } from "../../components/ProductSection/ProductSection";
 
 export const Mujer = () => {
-  return (
-    <ProductSection title="MUJER" jsonUrl="/Mujer.json" />
-  )
-}
+  return <ProductSection title="MUJER" jsonUrl="/Mujer.json" />;
+};

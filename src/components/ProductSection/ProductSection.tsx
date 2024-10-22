@@ -10,6 +10,7 @@ type Product = {
   name: string;
   price: string;
   image: string;
+  url: string;
 };
 
 type ProductsByCategory = {

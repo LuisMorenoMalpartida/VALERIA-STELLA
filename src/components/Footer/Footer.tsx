@@ -17,8 +17,14 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className={`${styles.footerSection} ${styles.footerSectionFooterLogo}`}>
-          <img src={logo} alt="Valeria Stella" className={styles.footerLogoImg} />
+        <div
+          className={`${styles.footerSection} ${styles.footerSectionFooterLogo}`}
+        >
+          <img
+            src={logo}
+            alt="Valeria Stella"
+            className={styles.footerLogoImg}
+          />
           <div className={styles.socialIcons}>
             <a href="#">
               <FaInstagram />
@@ -32,7 +38,6 @@ export const Footer = () => {
           </div>
         </div>
         <div className={`${styles.footerSection} ${styles.legal}`}>
-
           <h3>CENTRO LEGAL</h3>
           <ul>
             <li>

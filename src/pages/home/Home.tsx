@@ -4,7 +4,10 @@ import { SectionSwiper } from "../../features/Home/SectionSwiper/SectionSwiper";
 import "./Home.css";
 import { SectionOps } from "../../features/Home/SectionOps/SectionOps";
 import { SectionModa } from "../../features/Home/SectionModa/SectionModa";
-import { SectionAd, SectionAd1, SectionAd2, SectionAd3 } from "../../features/Home/SectionAd/SectionAd";
+import {
+  SectionAd1,
+  SectionAd3,
+} from "../../features/Home/SectionAd/SectionAd";
 
 export const Home = () => {
   return (
@@ -14,7 +17,7 @@ export const Home = () => {
       {/* <SectionAd />
       <SectionAd2/> */}
       <SectionAd1 />
-      <SectionAd3/>
+      <SectionAd3 />
       <SectionOps />
       <SectionModa />
       <Footer />
