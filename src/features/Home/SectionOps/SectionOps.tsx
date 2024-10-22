@@ -22,28 +22,16 @@ export const SectionOps = () => {
           <div>
             <img src={img1} alt="" />
           </div>
-          {/* <div style={{marginBottom:"50px", textAlign:"center"}}>
-              <h3>VERANO</h3>
-              <Button>VER MÁS</Button>
-            </div> */}
         </div>
         <div className="hola">
           <div>
             <img src={img2} alt="" />
           </div>
-          {/* <div style={{textAlign:"center"}}>
-              <h3>OTOÑO</h3>
-              <Button>VER MÁS</Button>
-            </div> */}
         </div>
         <div className="hola">
           <div>
             <img src={img3} alt="" />
           </div>
-          {/* <div style={{marginBottom:"50px", textAlign:"center"}}>
-              <h3>INVIERNO</h3>
-              <Button>VER MÁS</Button>
-            </div> */}
         </div>
       </div>
     </>

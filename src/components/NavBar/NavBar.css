@@ -52,28 +52,32 @@
     text-decoration: none;
     position: relative;
     transition: color 0.3s ease;
-  }
-  
-  .navLink::after {
+}
+
+.navLink::after {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: -3px; /* Ajusta la posición de la línea */
+    bottom: -3px;
+    /* Ajusta la posición de la línea */
     width: 0;
-    height: 2px; /* Grosor de la línea */
-    background-color: black; /* Color del subrayado */
+    height: 2px;
+    /* Grosor de la línea */
+    background-color: black;
+    /* Color del subrayado */
     transition: width 0.3s ease, left 0.3s ease;
-  }
-  
-  .navLink:hover {
+}
+
+.navLink:hover {
     color: black;
-  }
-  
-  .navLink:hover::after {
+}
+
+.navLink:hover::after {
     width: 100%;
-    left: 0; /* La línea se expande desde el centro hacia los lados */
-  }
-  
+    left: 0;
+    /* La línea se expande desde el centro hacia los lados */
+}
+
 .navLogo {
     width: 160px;
     display: flex;
@@ -88,6 +92,7 @@
     gap: 30px;
     gap: 30px;
     justify-content: end;
+    align-items: center;
     padding-right: 50px;
 }
 
@@ -100,5 +105,10 @@
 
 .navIcon.whatsapp:hover {
     color: #6EB7AC;
+    transform: scale(1.2);
+}
+
+.navIcon.Instagram:hover {
+    color: #b76e79;
     transform: scale(1.2);
 }

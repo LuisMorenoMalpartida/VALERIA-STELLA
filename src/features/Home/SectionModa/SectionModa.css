@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 70px;
-    padding: 80px 150px 100px 150px;
+  padding: 80px 150px 100px 150px;
   /* background: rgb(183,110,121);
   background: linear-gradient(0deg, rgba(183,110,121,1) 0%, rgba(255,255,255,1) 58%); */
   background-color: #6EB7AC;
@@ -26,8 +26,8 @@
   width: 600;
   text-align: center;
   /* border: 1px solid red; */
-  
-  
+
+
 }
 
 .moda-texto h2 {
@@ -49,11 +49,9 @@
   padding: 10px 30px;
   font-size: 16px;
   margin-top: 10px;
-  border: none;
-  /* background-color: #ffffff; */
   background-color: transparent;
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   border: 1px solid rgb(255, 255, 255);
 }
