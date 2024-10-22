@@ -41,8 +41,8 @@ export const SectionSwiper = () => {
               <h2>COMPRA TUS PRENDAS FAVORITAS</h2>
               <div className="button-group">
                 <Button onClick={() => navigate("/mujer")}>VER MUJER</Button>
-                <Button>VER OUTLET</Button>
-                <Button>VER HOMBRE</Button>
+                <Button onClick={() => navigate("/outlet")}>VER OUTLET</Button>
+                <Button onClick={() => navigate("/hombre")}>VER HOMBRE</Button>
               </div>
             </div>
           </div>

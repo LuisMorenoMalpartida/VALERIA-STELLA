@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaWhatsapp, FaRegHeart } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import "./NavBar.css";
 import logo from "../../assets/Navbar/Logo/logo.png";
 
@@ -37,9 +37,9 @@ export const NavBar = () => {
             <Link to="/facebook" className="navIcon whatsapp">
               <FaWhatsapp size={25} />
             </Link>
-            <Link to="/twitter" className="navIcon heart">
+            {/* <Link to="/twitter" className="navIcon heart">
               <FaRegHeart size={25} />
-            </Link>
+            </Link> */}
           </div>
         </nav>
       </div>
