@@ -30,7 +30,7 @@
 .slide-text {
     position: absolute;
     left: 50%;
-    bottom: -5%;
+    bottom: -4%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -69,4 +69,25 @@
 .button-group button:hover {
     background-color: #6eb7ac;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .slide-text {
+        width: 190%;
+        bottom: -25%;
+    }
+
+    .slide-text h2 {
+        margin-bottom: 15px;
+        font-size: clamp(14.3px, 2.05vw, 30px);
+    }
+
+    .button-group {
+        gap: 12px;
+    }
+
+    .button-group button {
+        font-size: clamp(10.8px, 1.30vw, 28px);
+        padding: 4px 18px;
+    }
 }
