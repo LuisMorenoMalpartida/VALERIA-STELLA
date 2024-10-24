@@ -1,12 +1,16 @@
-import styles from "./Footer.module.css"; // Importa el CSS Module
-import { FaInstagram, FaTiktok, FaFacebookF } from "react-icons/fa";
+import styles from "./Footer.module.css"; 
+import { FaInstagram } from "react-icons/fa";
+import { PiTiktokLogo } from "react-icons/pi";
+import  Facebook  from "./facebook 1.png";
+
+
 import logo from "./logo.png";
 
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
-        <div className={styles.footerSection}>
+        <div className={`${styles.footerSection} ${styles.cliente}`} >
           <h3>ATENCIÓN AL CLIENTE</h3>
           <ul>
             <li>
@@ -30,10 +34,10 @@ export const Footer = () => {
               <FaInstagram />
             </a>
             <a href="#">
-              <FaTiktok />
+            <PiTiktokLogo />
             </a>
             <a href="#">
-              <FaFacebookF />
+            <img src={Facebook} alt="Facebook" className={styles.socialIconImg} />
             </a>
           </div>
         </div>
@@ -51,8 +55,21 @@ export const Footer = () => {
       </div>
 
       <div className={styles.footerBottom}>
-        <p>Copyright © 2024 Valeria Stella</p>
-      </div>
+    <p>Copyright © 2024 Valeria Stella</p>
+    <div className={styles.creditos}>
+        <p>Desarrollado por</p>
+        <div className={styles.circle}>
+            <span className={`${styles.tooltip} ${styles.tooltip1}`}>Laura Luque Arias</span>
+        </div>
+        <div className={styles.circle}>
+            <span className={`${styles.tooltip} ${styles.tooltip2}`}>Luis Moreno Malpartida</span>
+        </div>
+        <div className={styles.circle}>
+            <span className={`${styles.tooltip} ${styles.tooltip3}`}>Deyvis Orosco</span>
+        </div>
+    </div>
+</div>
+
     </footer>
   );
 };
