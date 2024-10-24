@@ -1,34 +1,23 @@
 .footer {
     background-color: #B76E79;
-    /* Color de fondo del footer */
     color: white;
-    /* Color del texto */
-    /* Espaciado interior en la parte superior e inferior, y laterales */
     flex-shrink: 0;
-    /* Evita que el footer se reduzca en el espacio disponible */
 }
 
 .footerContent {
-    padding: 40px 20px;
+    padding: 40px 0px;
     display: flex;
-    /* Usar flexbox para el layout */
     justify-content: center;
-    /* Centrar horizontalmente */
     align-items: flex-start;
-    /* Alinear verticalmente al inicio */
-    max-width: 1200px;
-    /* Ancho máximo del contenido */
+    max-width: 100%;
+    padding-inline: 80px;
     margin: 0 auto;
-    /* Centrar el contenido horizontalmente */
     flex-wrap: wrap;
-    /* Permitir que los elementos se envuelvan */
 }
 
 .footerSection {
     flex: 1;
-    /* Ocupa espacio igual en el footer */
-    padding: 10px;
-    /* Espaciado alrededor de cada sección */
+    padding: 0px;
 }
 
 .legal {
@@ -36,110 +25,201 @@
 }
 
 .footerSection h3 {
-    font-size: 18px;
-    /* Tamaño del título */
+    font-size: clamp(14px, 1.05vw, 15px);
+    font-weight: bold;
     margin-bottom: 15px;
-    /* Espacio debajo del título */
 }
 
 .footerSection ul {
     list-style: none;
-    /* Quitar las viñetas */
     padding: 0;
-    /* Quitar el padding */
 }
 
 .footerSection ul li {
     margin-bottom: 10px;
-    /* Espacio entre elementos de la lista */
 }
 
 .footerSection ul li a {
     color: white;
-    /* Color del texto del enlace */
     text-decoration: none;
-    /* Sin subrayado en los enlaces */
-    font-size: 16px;
-    /* Tamaño del texto del enlace */
+    font-size: clamp(14px, 1.05vw, 15px);
+    font-weight: 400;
 }
 
 .footerSectionFooterLogo {
     flex: 3;
-    /* Ocupar más espacio que otras secciones */
     display: flex;
-    /* Usar flexbox para alinear el contenido */
     flex-direction: column;
-    /* Dirección vertical */
     justify-content: center;
-    /* Centrar verticalmente */
     align-items: center;
-    /* Centrar horizontalmente */
 }
 
 .footerLogo {
     margin-bottom: 20px;
-    /* Espacio debajo del logo */
 }
 
 .footerLogoImg {
     max-width: 200px;
-    /* Ancho máximo de la imagen */
     height: auto;
-    /* Mantener la proporción de la imagen */
 }
 
 .socialIcons {
     display: flex;
-    /* Usar flexbox para los íconos sociales */
     justify-content: center;
-    /* Centrar horizontalmente */
     gap: 15px;
-    /* Espacio entre los íconos */
     margin-top: 15px;
 }
 
 .socialIcons a {
     color: white;
-    /* Color del ícono */
     font-size: 20px;
-    /* Tamaño del ícono */
     text-decoration: none;
-    /* Sin subrayado en los enlaces */
 }
 
 .footerBottom {
+    display: flex;
     background-color: white;
+    justify-content: space-between;
     color: #3F3F3F;
-    padding: 20px 0px;
+    padding: 20px;
+    padding-inline: 80px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    /* Línea divisoria superior */
 }
 
 .footerBottom p {
-    font-size: 14px;
-    /* Tamaño del texto en la parte inferior */
+    font-size: clamp(10px, 1.05vw, 15px);
 }
+
+.socialIconImg {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.creditos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    gap: 20px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    position: relative;
+    /* Para posicionar el tooltip */
+}
+
+.circle:hover {
+    background-color: #6EB7AC;
+    border: white;
+    cursor: pointer;
+}
+
+/* Mostrar la viñeta solo al hacer hover */
+.circle:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    /* Hace la viñeta visible */
+}
+
+/* Inicialmente oculto pero ocupa espacio */
+.tooltip {
+    visibility: hidden;
+    background-color: #6EB7AC;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 240%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+}
+
+/* Estilo para el triángulo */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    margin-left: -5px;
+    border-width: 9px;
+    border-style: solid;
+    border-color: #6EB7AC transparent transparent transparent;
+}
+
+/* Estilo específico para el primer tooltip */
+.tooltip1::after {
+    left: 46.6%;
+}
+
+.tooltip1 {
+    left: 60%;
+    width: 155px;
+    /* Ajusta la posición horizontal */
+}
+
+/* Estilo específico para el segundo tooltip */
+.tooltip2 {
+    left: -400%;
+    width: 200px;
+    /* Posición centrada */
+}
+
+.tooltip2::after {
+    left: 75%;
+}
+
+
+/* Estilo específico para el tercer tooltip */
+.tooltip3 {
+    left: -400%;
+    width: 135px;
+    /* Ajusta la posición horizontal */
+}
+
+.tooltip3::after {
+    left: 87%;
+}
+
 
 @media (max-width: 768px) {
     .footerContent {
         flex-direction: column;
-        /* Cambiar a columna en pantallas pequeñas */
         align-items: center;
-        /* Centrar todos los elementos en columnas */
+        padding-top: 20px;
+        padding-inline: 20px;
         text-align: center;
-        /* Centrar texto */
     }
 
     .footerSection {
-        margin-bottom: 30px;
-        /* Espacio debajo de cada sección */
+        margin-bottom: 0px;
+        padding: 0px;
         width: 100%;
-        /* Asegura que las secciones ocupen el ancho completo */
+    }
+
+    .footerSectionFooterLogo {
+        order: -1;
+        padding-bottom: 40px;
     }
 
     .socialIcons {
         margin-top: 15px;
-        /* Espacio arriba de los íconos sociales */
+    }
+
+    .cliente {
+        text-align: left;
+    }
+
+    .footerBottom {
+        padding: 20px;
     }
 }
