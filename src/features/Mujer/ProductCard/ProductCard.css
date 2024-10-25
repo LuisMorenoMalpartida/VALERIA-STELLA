@@ -1,41 +1,55 @@
 .product-card {
-  padding: 20px; /* Espaciado interno generoso */
+  padding: 20px;
+  /* Espaciado interno generoso */
   text-align: center;
   background-color: #ffffff;
-  overflow: hidden; /* Para evitar que la imagen sobresalga */
+  overflow: hidden;
+  /* Para evitar que la imagen sobresalga--+ */
 }
 
 
 .product-image-container {
-  position: relative; /* Para que el corazón se posicione respecto a la imagen */
-  height: 400px; /* Altura fija para las imágenes */
+  position: relative;
+  /* Para que el corazón se posicione respecto a la imagen */
+  height: 400px;
+  /* Altura fija para las imágenes */
   margin-bottom: 15px;
-  overflow: hidden; /* Para mantener la imagen dentro de los bordes */
+  overflow: hidden;
+  /* Para mantener la imagen dentro de los bordes */
 }
 
 .product-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
 .product-image-container:hover .product-image {
-  transform: scale(1.05); /* Efecto de zoom suave en la imagen al pasar el mouse */
+  transform: scale(1.05);
+  /* Efecto de zoom suave en la imagen al pasar el mouse */
 }
 
 .heart-icon {
-  position: absolute; /* Posiciona el corazón dentro de la imagen */
-  bottom: 10px; /* Ajusta la distancia desde la parte inferior */
-  left: 10px; /* Ajusta la distancia desde la parte izquierda */
-  font-size: 1.5rem; /* Tamaño del icono */
-  color: #ddd; /* Color inicial del corazón */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
-  transition: color 0.3s ease; /* Transición para el cambio de color */
+  position: absolute;
+  /* Posiciona el corazón dentro de la imagen */
+  bottom: 10px;
+  /* Ajusta la distancia desde la parte inferior */
+  left: 10px;
+  /* Ajusta la distancia desde la parte izquierda */
+  font-size: 1.5rem;
+  /* Tamaño del icono */
+  color: #ddd;
+  /* Color inicial del corazón */
+  cursor: pointer;
+  /* Cambia el cursor al pasar sobre el icono */
+  transition: color 0.3s ease;
+  /* Transición para el cambio de color */
 }
 
 .heart-icon:hover {
-  color: #ff4b4b; /* Color del corazón al pasar el mouse (rojo) */
+  color: #ff4b4b;
+  /* Color del corazón al pasar el mouse (rojo) */
 }
 
 
@@ -43,11 +57,13 @@
   font-size: 1.2rem;
   color: #333;
   margin: 8px 0;
-  font-weight: 600; /* Negrita moderada */
+  font-weight: 600;
+  /* Negrita moderada */
 }
 
 .product-price {
   font-size: 1rem;
-  color: #777; /* Color de texto más suave */
+  color: #777;
+  /* Color de texto más suave */
   margin-bottom: 10px;
 }
