@@ -14,7 +14,7 @@
 
 .product-section-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(14px, 4vw, 30px);
   color: black;
   font-weight: 700;
   padding-bottom: 30px;
@@ -53,7 +53,7 @@
   color: black;
   border: 2px solid black;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,7 +61,6 @@
   background-color: #6EB7AC;
   color: #ffffff;
   border-color: #ffffff;
-  transform: scale(1.05);
 }
 
 .product-card {
@@ -126,7 +125,14 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 600px) {
+  .product-section-page {
+    padding: 20px 20px;
+    background-image: url(../../assets/ProductSection/background1.png);
+    background-size: cover;
+    background-position: center 110px;
+    background-repeat: repeat-x;
+  }
 
   .tab[aria-selected="true"]::after {
     border: 2px solid #000000;
@@ -137,5 +143,9 @@
   .tab {
     flex: 1;
     /* Cada tab ocupará el espacio completo */
+  }
+
+  .product-section-title {
+    padding-bottom: 0px;
   }
 }
