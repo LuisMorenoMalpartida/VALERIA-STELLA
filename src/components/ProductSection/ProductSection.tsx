@@ -52,6 +52,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
       <NavBar />
       <div className="product-section-page">
         <h1 className="product-section-title">{title}</h1>
+        <div className="tabs">
         <Tabs
           size="lg"
           variant="underlined"
@@ -63,6 +64,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
             <Tab key={tab} title={tab} className="tab" />
           ))}
         </Tabs>
+        </div>
 
         <div className="product-section-content">
           <div className="product-list-container">

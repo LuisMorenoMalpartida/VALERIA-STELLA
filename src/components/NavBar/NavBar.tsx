@@ -47,7 +47,7 @@ export const NavBar = () => {
           </div>
 
           <div className="navIcons">
-            <Link to="/" className="navIcon whatsapp">
+            <Link to="https://wa.me/51930754024?" className="navIcon whatsapp">
               <PiWhatsappLogoLight size={30} />
             </Link>
             <Link to="/" className="navIcon Instagram">

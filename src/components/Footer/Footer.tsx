@@ -14,10 +14,10 @@ export const Footer = () => {
           <h3>ATENCIÓN AL CLIENTE</h3>
           <ul>
             <li>
-              <a href="#">Preguntas frecuentes</a>
+              <a href="/preguntasfrecuentes">Preguntas frecuentes</a>
             </li>
             <li>
-              <a href="#">Guía de Tallas</a>
+              <a href="/guitallas">Guía de Tallas</a>
             </li>
           </ul>
         </div>
@@ -45,10 +45,10 @@ export const Footer = () => {
           <h3>CENTRO LEGAL</h3>
           <ul>
             <li>
-              <a href="#">Políticas de privacidad</a>
+              <a href="/politicaterminos">Políticas de privacidad</a>
             </li>
             <li>
-              <a href="#">Términos & Condiciones</a>
+              <a href="/politicaterminos">Términos & Condiciones</a>
             </li>
           </ul>
         </div>
