@@ -2,125 +2,133 @@
 "Top": [
     {
         "id": 1,
-        "name": "Bio V Neck Yellow",
-        "price": "S/. 120.000",
+        "name": "JJXX Jxgail Faux Leather Biker Jacket Noos",
+        "price": "46,90€ - 49,90€",
         "image": "./Mujer/Top-1.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 2,
         "name": "Mossan Day Half",
         "price": "S/. 190.000",
         "image": "./Mujer/Top-2.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 3,
         "name": "Casual Blue Blouse",
         "price": "S/. 110.000",
         "image": "./Mujer/Top-3.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 4,
         "name": "Striped V Neck",
         "price": "S/. 130.000",
         "image": "./Mujer/Top-4.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 5,
         "name": "Summer Top Pink",
         "price": "S/. 140.000",
         "image": "./Mujer/Top-5.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 6,
         "name": "Elegant Sleeveless",
         "price": "S/. 160.000",
         "image": "./Mujer/Top-6.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 7,
         "name": "Basic White T-shirt",
         "price": "S/. 80.000",
         "image": "./Mujer/Top-7.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 8,
         "name": "Chic Crop Top",
         "price": "S/. 150.000",
         "image": "./Mujer/Top-8.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 9,
         "name": "Casual Green Top",
         "price": "S/. 95.000",
         "image": "./Mujer/Top-9.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 10,
         "name": "Elegant Black Top",
         "price": "S/. 180.000",
         "image": "./Mujer/Top-10.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 11,
         "name": "Elegant Sleeveless",
         "price": "S/. 160.000",
         "image": "./Mujer/Top-11.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 12,
         "name": "Basic White T-shirt",
         "price": "S/. 80.000",
         "image": "./Mujer/Top-12.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 13,
         "name": "Chic Crop Top",
         "price": "S/. 150.000",
         "image": "./Mujer/Top-13.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 14,
         "name": "Casual Green Top",
         "price": "S/. 95.000",
         "image": "./Mujer/Top-14.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     },
     {
         "id": 15,
         "name": "Elegant Black Top",
         "price": "S/. 180.000",
         "image": "./Mujer/Top-15.png",
-        "url": "https://www.youtube.com/watch?v=QxPeRC82Uo0"
+        "url": "https://amzn.to/47LT7tK"
     }
 ]
 ,
-  "Bottom": [
+  "Vestidos": [
     {
-      "id": 3,
+      "id": 16,
       "name": "Classic Black Pants",
       "price": "S/. 150.000",
       "image": "https://img.freepik.com/foto-gratis/mujer-negocios-emociones-aisladas_1303-14132.jpg?t=st=1728867277~exp=1728870877~hmac=584994ed245fd0709aa6418246b8989f0b16535cfe6a5243662baa087e5bd8d3&w=740"
     }
   ],
-  "Vestidos": [
+  "Cuero": [
     {
-      "id": 4,
-      "name": "Summer Dress",
-      "price": "S/. 200.000",
-      "image": "https://example.com/path-to-image4.jpg"
+      "id": 17,
+      "name": "JJXX Jxgail Faux Leather Biker Jacket Noos",
+      "price": "46,90€ - 49,90€",
+      "image": "./Mujer/Top-16.png",
+      "url": "https://amzn.to/47LT7tK"
+    },
+    {
+      "id": 18,
+      "name": "chiguomaoyi Chaqueta corta",
+      "price": "35,00€",
+      "image": "./Mujer/Top-17.png",
+      "url": "https://amzn.to/4es48D8"
     }
   ],
   "Conjunto": [],
