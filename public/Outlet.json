@@ -1,24 +1,4 @@
 {
-  "Top y Poleras": [
-    {
-      "id": 1,
-      "name": "Bio V Neck Yellow",
-      "price": "S/. 120.000",
-      "image": "../src/assets/Outlet/Top-1.png"
-    },
-    {
-      "id": 2,
-      "name": "Mossan Day Half",
-      "price": "S/. 190.000",
-      "image": "../src/assets/Outlet/Top-1.png"
-    },
-    {
-      "id": 3,
-      "name": "Mossan Day Half",
-      "price": "S/. 190.000",
-      "image": "../src/assets/Outlet/Top-1.png"
-    }
-  ],
   "Cuero": [
     {
       "id": 3,
@@ -35,7 +15,7 @@
       "image": "../src/assets/Outlet/Trajes-1.png"
     }
   ],
-  "Vestidos": [
+  "Conjunto": [
     {
       "id": 4,
       "name": "Summer Dress",
@@ -43,6 +23,5 @@
       "image": "../src/assets/Outlet/Vestidos-1.png"
     }
   ],
-  "Conjunto": [],
   "Accesorios": []
 }

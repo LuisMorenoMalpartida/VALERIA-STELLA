@@ -1,79 +1,4 @@
 {
-  "Poleras": [
-    {
-        "id": 1,
-        "name": "Bio V Neck Yellow",
-        "price": "S/. 120.000",
-        "image": "./Hombre/Top-1.png"
-    },
-    {
-        "id": 2,
-        "name": "Mossan Day Half",
-        "price": "S/. 190.000",
-        "image": "./Hombre/Top-2.png"
-    },
-    {
-        "id": 3,
-        "name": "Casual Blue Blouse",
-        "price": "S/. 110.000",
-        "image": "./Hombre/Top-3.png"
-    },
-    {
-        "id": 4,
-        "name": "Striped V Neck",
-        "price": "S/. 130.000",
-        "image": "./Hombre/Top-4.png"
-    },
-    {
-        "id": 5,
-        "name": "Summer Top Pink",
-        "price": "S/. 140.000",
-        "image": "./Hombre/Top-5.png"
-    },
-    {
-        "id": 6,
-        "name": "Elegant Sleeveless",
-        "price": "S/. 160.000",
-        "image": "./Hombre/Top-6.png"
-    },
-    {
-        "id": 7,
-        "name": "Basic White T-shirt",
-        "price": "S/. 80.000",
-        "image": "./Hombre/Top-7.png"
-    },
-    {
-        "id": 8,
-        "name": "Chic Crop Top",
-        "price": "S/. 150.000",
-        "image": "./Hombre/Top-8.png"
-    },
-    {
-        "id": 9,
-        "name": "Casual Green Top",
-        "price": "S/. 95.000",
-        "image": "./Hombre/Top-9.png"
-    },
-    {
-        "id": 10,
-        "name": "Bio V Neck Yellow",
-        "price": "S/. 120.000",
-        "image": "./Hombre/Top-10.png"
-    },
-    {
-        "id": 11,
-        "name": "Mossan Day Half",
-        "price": "S/. 190.000",
-        "image": "./Hombre/Top-11.png"
-    },
-    {
-        "id": 12,
-        "name": "Casual Green Top",
-        "price": "S/. 95.000",
-        "image": "./Hombre/Top-12.png"
-    }
-]
-,
   "Cuero": [
     {
       "id": 5,
@@ -114,20 +39,6 @@
       "image": "https://img.freepik.com/foto-gratis/mujer-joven-maxi-vestido-bohemio_23-2149088432.jpg"
     }
   ],
-  "Conjunto": [
-    {
-      "id": 11,
-      "name": "Cozy Knit Set",
-      "price": "S/. 300.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-joven-conjunto-tejido-acogedor_23-2149081232.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Sporty Tracksuit",
-      "price": "S/. 350.000",
-      "image": "https://img.freepik.com/foto-gratis/mujer-joven-chandal_23-2149074561.jpg"
-    }
-  ],
   "Accesorios": [
     {
       "id": 13,
@@ -146,20 +57,6 @@
       "name": "Baseball Cap",
       "price": "S/. 40.000",
       "image": "https://img.freepik.com/foto-gratis/gorra-beisbol_23-2149036782.jpg"
-    }
-  ],
-  "Sale": [
-    {
-      "id": 16,
-      "name": "Vintage Tee - 20% Off",
-      "price": "S/. 60.000",
-      "image": "https://img.freepik.com/foto-gratis/camiseta-vintage_23-2149087654.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Denim Jacket - 30% Off",
-      "price": "S/. 140.000",
-      "image": "https://img.freepik.com/foto-gratis/chaqueta-denim_23-2149087643.jpg"
     }
   ]
 }
