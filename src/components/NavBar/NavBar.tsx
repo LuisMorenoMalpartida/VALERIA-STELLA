@@ -37,9 +37,6 @@ export const NavBar = () => {
             <Link to="/hombre" className={`navLink ${location.pathname === '/hombre' ? 'activeLink' : ''}`}>
               HOMBRE
             </Link>
-            <Link to="/outlet" className={`navLink ${location.pathname === '/outlet' ? 'activeLink' : ''}`}>
-              OUTLET
-            </Link>
           </div>
 
           <div className="navLogo">

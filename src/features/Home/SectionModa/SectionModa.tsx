@@ -19,7 +19,6 @@ export const SectionModa = () => {
           de calidad. Por eso, seleccionamos cuidadosamente prendas de Amazon
           para ofrecerte lo mejor de la moda para mujer y hombre.
         </p>
-        <button onClick={() => navigate("/outlet")}>VER OUTLET</button>
       </div>
       <div className="moda-img2">
         <img src={img2} alt="" />
